@@ -1,0 +1,20 @@
+.dashboard {
+  display: flex;
+}
+
+.sidebar {
+  width: 300px;
+  height: 100vh;
+  background-color: #008300;
+}
+
+.main {
+  width: 100%;
+  padding: 40px;
+  background-color: #f7f7f4;
+}
+
+.refresh-text {
+  margin-left: 10px;
+  margin-top: 10px;
+}
