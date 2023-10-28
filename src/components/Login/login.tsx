@@ -9,7 +9,6 @@ import { useNavigate } from "react-router-dom";
 const Login: React.FC = () => {
   const navigate = useNavigate();
   const [showPassword, setShowPassword] = useState(false);
-  const [showLastName, setShowLastName] = useState(false);
   const [showUsername, setShowUsername] = useState(false);
   const [signInData, setSignInData] = useState({
     username: "",
@@ -124,7 +123,7 @@ const Login: React.FC = () => {
           Powered by Pakam Technology
         </p>
       </div>
-      <ToastContainer position="top-center" autoClose={3000} />
+      <ToastContainer />
     </div>
   );
 };

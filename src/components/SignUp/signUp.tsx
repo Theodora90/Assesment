@@ -177,7 +177,7 @@ const SignUp: React.FC = () => {
           Powered by Pakam Technology
         </p>
       </div>
-      <ToastContainer position="top-center" autoClose={3000} />
+      <ToastContainer />
     </div>
   );
 };

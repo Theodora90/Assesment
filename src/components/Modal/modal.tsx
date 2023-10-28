@@ -1,6 +1,5 @@
 import { useState, FormEvent } from "react";
 import { baseUrl } from "../api";
-import axios from "axios";
 import "./modal.css";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
